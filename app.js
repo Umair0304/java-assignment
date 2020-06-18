@@ -1,19 +1,19 @@
-Chapter # 1
+//Chapter # 1
 
- Q#1
+ //Q#1
 
- var a="Welcome to our website";
-alert(a);
+ //var a="Welcome to our website";
+//alert(a);
 
-Q#2
+//Q#2
 
- var b="Error! Please enter a valid password.";
- alert(b);
+ //var b="Error! Please enter a valid password.";
+ //alert(b);
 
-Q#3
+//Q#3
 
- var c="Welcome to JS Land...\nHappy Coding!";
- alert(c);
+ //var c="Welcome to JS Land...\nHappy Coding!";
+ //alert(c);
 
 //Q # 4
 
@@ -37,7 +37,7 @@ Q#3
 
 // Q # 2
 
- //var myName="Muhammad Muneeb Tahir";
+ //var myName="Muhammad umair sajjad";
 // alert(myName);
 
 //Q # 3
@@ -47,7 +47,7 @@ Q#3
 
 //Q # 4
 
- //var name="Muneeb";
+ //var name="umair";
  //var age="19";
  //var Qualification="Intermediate";
  //alert(name);
@@ -587,4 +587,354 @@ Q#3
   //  else{
     //  alert("Invalid Choice")
    // }
+
+
+
+
+
+   // Chapter # 12 - 13
+
+   // Q#1
+
+
+//var input=prompt("Please enter String or Number");
+//if(input>="A" && input<="Z" ){
+ // alert("You Enterd Uppercase Letter")
+//}
+//else if(input>="a" && input<="z"){
+//  alert("You Enterd Lowercase letter")
+//}
+// else if(input>="0" && input<="9"){
+ // alert("You Enterd a Number")
+// }
+// else{
+ // alert("You Enterd a Symbol")
+// }
+
+// Q # 2
+
+//var num1=prompt("Enter First Number");
+//var num2=prompt("Enter Second Number");
+//if(parseInt(num1)>parseInt(num2)){
+//  alert("Larger Number is" + " " + num1)
+//}
+//else if(parseInt(num2)>parseInt(num1)){
+//  alert("Larger number is" + " " + num2)
+//}
+//else if(num1==num2){
+ // alert("Numbers are equal") 
+//}
+ //else{
+ // alert("Invalid Choice")
+ // }
+
+// Q#3
+
+//var num=prompt("Enter Number");
+//if(num>0){
+ // alert("You Enterd Positive Number")
+//}
+//else if(num<0){
+//  alert("You Enterd Negative Number")
+//}
+//else if(num==0){
+ // alert("Enterd Number is zero")
+//}
+//else{
+ // alert("Invalid Choice")
+//}
+
+// Q#4
+
+//var char=prompt("Enter one charachter");
+//if(char=="A" || char=="a" || char=="E" || char=="e" || char=="I" || char=="i" || char=="O" || char=="o" || char=="U" || char=="u"){
+ // alert("True")
+//}
+//else{
+//  alert("False")
+//}
+
+// Q#5
+
+// var correctPassword="MalikMuneeb7860";
+//var newPassword=prompt("Please Enter Password");
+//if(newPassword===""){
+//  alert("Please Enter Your Password")
+//}
+//else if(newPassword===correctPassword){
+ // alert("Correct!")
+//}else{
+ // alert("Incorrect Password")
+// }
+
+// Q # 6
+
+//var greeting;
+//var hour = 13;
+//if (hour < 18) {
+ //  greeting = "Good day";
+ //  alert(greeting)
+//}
+//else{
+//greeting = "Good evening";
+//alert(greeting)
+//}
+
+// Q # 7
+
+//var time=prompt("Please Enter time in 24 hour format");
+//var byDefault=1900;
+//if(time==""){
+//  alert("The time is" + " " + byDefault + " " + "Good Evening")
+//}
+//else if(time>=0000 && time<1200){
+ // alert("Good Morning")
+//}
+//else if(time>=1200 && time<1700){
+ // alert("Good Afternoon")
+//}
+//else if(time>=1700 && time<2100){
+ // alert("Good Evening")
+//}
+//else if(time>=2100 && time<=2359){
+ // alert("Good Night")
+//}
+//else{
+//  alert("Invalid Choice")
+//}
+
+// Chapter 14 to 16
+
+// Q # 1
+
+//var studentNames=[ ];
+
+// Q # 2
+
+// var studentNames=names();
+
+// Q # 3
+
+//var strings=["Zain","Muneeb","Haseeb","Faizan","Bilal"]
+
+// Q # 4
+
+// var numbr=[1,2,3,4,5,6,7,8,9]
+
+// Q # 5
+
+//var boolean=["+","-","*","/","%"]
+
+// Q # 6
+
+// var mix=[1,"Malik","+",2]
+
+// Q # 7
+
+//document.write("<h1>"+"Qualifications:" + "</h1>");
+//var arr=["SSC","HSC","BCS","BS", "BCOM" , "MS" , "M.Phil." , "PHD"]
+//var g=arr.length;
+//for (i=0; i<g; i++){
+ //    document.write(i+1+")"+" "+ arr[i] + "<br>")
+//}
+
+// Q # 8
+
+//var studentNames=["Zain","Muneeb","Haseeb"];
+//var studentsMarks=[320,230,480];
+//var count=studentNames.length;
+//for (i=0; i<count; i++){
+ //    document.write("Score of <b>" +studentNames[i]+"</b> is  "+ studentsMarks[i] + ". Percentage :" +studentsMarks[i]/500*100+"%<br>")
+//}
+
+
+// Q # 9
+
+//var coloNames=["Red","Orange","Green"];
+
+//coloNames.unshift("Yellow");
+
+//coloNames.push("Blue");
+
+//coloNames.unshift("Black","Pink"); 
+
+//coloNames.shift();
+
+//coloNames.pop();
+
+//coloNames.splice(2,1,"SKYBLUE")
+
+//coloNames.splice(1,2);
+//document.write(coloNames);
+
+
+// Q#10
+
+//var scores=[320,230,480,120];
+//document.write("Scores of Students: " + scores + "<br>");
+//scores.sort();
+//document.write("Ordered Scores of Students: " + scores);
+
+// Q # 11
+
+//var cityNames=["Karachi","Quetta","Islamabad","Peshawar","Faisalabad"];
+//document.write("Cities List:" + "<br>" + cityNames + "<br> <br> <br>");
+//var copyCities=cityNames.slice(1,3);
+//document.write("Selected cities list:" + "<br>" + copyCities);
+
+
+// Q # 12
+
+//var arr=["This","is","my","cat"];
+//document.write("Array: " + "<br>" + arr + "<br>");
+//var join=arr.join(" ");
+//document.write("String: " + "<br>" + join);
+
+// Q # 13
+
+//var values=["Keyboard","Mouse","Printer","Monitor"];
+//document.write("Devices: " + "<br>"  + values + "<br> <br> <br>");
+//for(i=0; i<values.length; i++){
+//  document.write("Out: " + "<br>" + values[i] + "<br>")
+//}
+
+// Q # 14
+
+//var values=["Keyboard","Mouse","Printer","Monitor"];
+//document.write("Devices: " + "<br>"  + values + "<br> <br> <br>");
+//var reverse=values.reverse();
+//for(i=0; i<values.length; i++){
+//  document.write("Out: " + "<br>" + reverse[i] + "<br>")
+//}
+
+
+// Q # 15
+
+
+//var mobiles=["Samsung", "Motorola", "Nokia", "Sony","Haier","Apple"];
+//document.write("<select>");
+//for(i=0; i<mobiles.length; i++){
+//document.write(  "<option>" + mobiles[i] +  "</option>")
+//}
+//document.write("</select>");
+
+
+// Chapter 17 to 20
+
+// Q # 1
+
+//var multiDimenssional=[[],[],[]];
+//for(i=0; i<3; i++){
+//  for(j=0; j<3; j++){
+//    document.write(multiDimenssional[i][j] + " ")
+//  }
+//  document.write("<br>")
+//}
+
+// Q # 2
+
+//var multiDimenssional=[[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+//for(i=0; i<3; i++){
+ // for(j=0; j<4; j++){
+ //   document.write(multiDimenssional[i][j] + " ")
+ // }
+ // document.write("<br>")
+//}
+
+// Q # 3
+
+//for(i=1; i<=10; i++){
+ // document.write(i + "<br>")
+//}
+
+// Q # 4
+
+//var number=+prompt("Enter a number to show its multiplication table");
+//var length=+prompt("Enter length of multiplication table");
+//document.write("Multiplication table of" + " " + number + "<br>");
+//document.write("Length" + " " + length + "<br>");
+//for(i=1; i<=length; i++){
+//  document.write(number + "x" + i + "=" + number*i + "<br>")
+//}
+
+// Q # 5
+
+//var fruits = ["apple", "banana", "mango", "orange","strawberry"];
+//for(i=0; i<fruits.length; i++){
+//  document.write(fruits[i] + "<br>")
+//}
+//document.write("Element at index" + " " + fruits.indexOf("apple") + " " +  "is" + " " +  fruits[0] + "<br>" );
+//document.write("Element at index" + " " + fruits.indexOf("banana") + " " +  "is" + " " +  fruits[1] + "<br>");
+//document.write("Element at index" + " " + fruits.indexOf("mango") + " " +  "is" + " " +  fruits[2] + "<br>");
+//document.write("Element at index" + " " + fruits.indexOf("orange") + " " +  "is" + " " +  fruits[3] + "<br>");
+//document.write("Element at index" + " " + fruits.indexOf("strawberry") + " " +  "is" + " " +  fruits[4] + "<br>");
+  
+// Q # 6
+
+//document.write("<h1>" + "Counting:" + "</h1>" + "<br>");
+//for(i=1; i<=15; i++){
+ // document.write(i + ",")
+//}
+//document.write("<h1>" + "Reverse Counting:" + "</h1>" + "<br>");
+//for(i=10; i>=1; i--){
+//  document.write(i + ",")
+//}
+//document.write("<h1>" + "Even:" + "</h1>" + "<br>");
+//for(i=0; i<=20; i=i+2){
+//  document.write(i + ",")
+//}
+//document.write("<h1>" + "Odd:" + "</h1>" + "<br>");
+//for(i=1; i<=19; i=i+2){
+//  document.write(i + ",")
+//}
+//document.write("<h1>" + "Series:" + "</h1>" + "<br>");
+//for(i=2; i<=20; i=i+2){
+//  document.write(i + "k" + ",")
+//}
+
+// Q # 7
+
+//var items=["cake","apple pie","cookie","chips","patties"];
+//var search=prompt("Welcome  to ABC Bakery. What do you want to  order Sir/mam?");
+//if(items.indexOf(search) !==-1){
+ // alert(search + " " + "is availible at index" + " " + items.indexOf(search)  + " " + "in our bakery")
+//}
+//else{
+ // alert("We are sorry " + search + " is not availible in our bakery")
+//}
+
+// Q # 8
+
+
+//var a = [24, 53, 78, 91, 12];
+//document.write("Array items: " + a + "<br>");
+//var max=0;
+//for(i=0; i<=max; i++){
+ // if(a[i]>max){
+ //     var max=a[i];
+ // }
+//}
+//document.write("The largest number is: " + max);
+
+// Q # 9
+
+//var a = [24, 53, 78, 91, 12];
+//document.write("Array items: " + a + "<br>");
+//var min=91;
+//for(i=0; i<=min; i++){
+ // if(a[i]<min){
+ //     var min=a[i];
+ // }
+//}
+//document.write("The smallest number is: " + min);
+
+
+// Q # 10
+
+//for(i=5; i<=100; i=i+5){
+ // document.write(i + ",")
+//}
+
+
+
 
